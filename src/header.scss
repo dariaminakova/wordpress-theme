@@ -1,0 +1,22 @@
+header {
+  .menu-top-bar-container {
+    background: transparent;
+    position: absolute;
+    right: 0;
+    z-index: 9999;
+    height: 132px;
+    padding-right: 90px;
+    #menu-top-bar {
+      display: flex;
+      list-style: none;
+      .menu-item {
+        margin-left: 32px;
+        cursor: pointer;
+        a {
+          text-decoration: none;
+          color: $dark-color;
+        }
+      }
+    }
+  }
+}

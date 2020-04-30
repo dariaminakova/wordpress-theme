@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap");
+@import "variables.scss";
+@import "header.scss";
+@import "home_page.scss";
+@import "footer.scss";
+@import "shared.scss";
+
+body {
+  font-family: Source Sans Pro;
+  margin: 0;
+}
+
+section {
+  display: flex;
+}

@@ -1,0 +1,41 @@
+button {
+  height: 52px;
+  background: $dark-color;
+  border-radius: 4px;
+  padding: 14px 20px;
+  text-transform: uppercase;
+  text-align: center;
+  color: $light-color;
+  outline: none;
+  border: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  border: 1px solid $dark-color;
+  cursor: pointer;
+  &.white {
+    background: $light-color;
+    color: $dark-color;
+    border: 1px solid $dark-color;
+    &:hover {
+      background: $dark-color;
+      color: $light-color;
+      border: 1px solid $light-color;
+    }
+  }
+  &.appear {
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: capitalize;
+  }
+  &:hover {
+    background: $light-color;
+    color: $dark-color;
+  }
+}
+
+ul {
+  list-style: none;
+}
